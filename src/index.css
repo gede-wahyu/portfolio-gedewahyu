@@ -68,4 +68,19 @@
   .section {
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
+
+  .hexagon{
+    position: relative;
+    width: 70px;
+    height: 80px;
+    margin: 0 8px;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: .5s;
+  }
 }
